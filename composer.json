@@ -1,0 +1,16 @@
+{
+    "name": "venkat/inpsyde-nonce",
+    "description": "Php package wrapper around WordPress wp_nonce functions.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Venkat",
+            "email": "venkatakrishnarao.ks@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "6.5",
+        "mockery/mockery": "dev-master"
+    }
+}
