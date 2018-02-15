@@ -14,9 +14,13 @@ For example, the nonce generator functions are wrapped in the following class:
 include_once("InpsydeNonce\InpsydeWpNonceGenWrapper.php");
 
 $nonce_wrapper = new InpsydeWpNonceGenWrapper();
+
 $nonce_wrapper->i_wp_nonce_ays();
+
 $nonce_wrapper->i_wp_nonce_url($actionurl, $action = -1, $name = '_wpnonce');
+
 $nonce_wrapper->i_wp_nonce_field($action, $name = '_wpnonce', $referer = "None", $echo = "echo");
+
 $nonce_wrapper->i_wp_create_nonce( $action);
 
 
@@ -25,5 +29,6 @@ The nonce consumer functions are wrapped in the following class.
 include_once("InpsydeNonce\InpsydeWpVerifyNonceVerifyWrapper.php");
 
 $nonce_wrapper = new InpsydeWpVerifyNonceVerifyWrapper();
+
 $nonce_wrapper->i_wp_create_nonce( $nonce, $action );
 
