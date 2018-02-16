@@ -1,8 +1,7 @@
 Wrapper classes around wp_nonce functions.
 
 
-To use the wrapper classes, run the following command:
-
+To use the wrapper classes:
 
 
 include them via include_once().
