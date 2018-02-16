@@ -29,5 +29,5 @@ include_once("InpsydeNonce\InpsydeWpVerifyNonceVerifyWrapper.php");
 
 $nonce_wrapper = new InpsydeWpVerifyNonceVerifyWrapper();
 
-$nonce_wrapper->i_wp_create_nonce( $nonce, $action );
+$nonce_wrapper->i_wp_verify_nonce( $nonce, $action );
 
