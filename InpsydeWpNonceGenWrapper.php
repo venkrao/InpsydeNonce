@@ -1,6 +1,6 @@
 <?php
 /**
-Generator nonce classes.
+* Generator nonce classes.
 */
 namespace InspydeNonce;
 
